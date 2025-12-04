@@ -383,50 +383,180 @@ footer {
 /* responsiveness */
 /*medium devices*/
 @media only screen and (min-width:769px) and (max-width:1199px) {
-  footer {
-    height: 455px;
+   .logo {
+           margin-left: 0;
+         
+    } 
+    .logo h2{
+                font-size: 2rem;
+    }   
+  nav{
+          
+    height: 60px;
+    width: 100%;
+            gap: 15%;
+         }
+         .nav-links{
+                 gap: 10%;
+                margin-top: 8%;
+         }
+         #banner {
+                        height: 400px;
+         }
+         #banner p{ 
+                        padding-left: 5%;
+                        padding-right: 5%;
+         }
+          #banner h1 {
+                         margin: 0;
+                         padding-top: 13%;
+                         font-size: 2.5rem;
+             }
+             .nav-links b{
+                            /* margin-right: 0; */
+                            font-size: 1em;
+             }
+             .division{
+                      height: 365px;
+             }
+             .box{
+                        display: flex;
+                          gap: 8%;
+                          font-size: 18px;
+             }
+             .box h4{
+                           font-size: 25px;
+             }
+       
+             .pandh1{
+                     margin-left: 5%;
+                     padding-left: 0;
+                     font-size: 10px;
+             }
+             .lorem2{
+                      
+                           font-size: 14px;
+                           margin-left: 1%;
+                           width: 300px;
+                         
+             }
+             .pandh1 img{
+                            height: 400px;
+                            width: 400px;
+                            margin-top: 10%;
+                         
+             }
+             .pandh1lorem{
+                          
+                            margin-left: 1%;
+                            font-size: 2.0rem;
+             }
+           #lorem1p{
+                            margin-left: 1%;
+                            font-size: 15px;
+           }
+           .view-more {
+     padding-left: 0;
+     padding-right: 5px;
+     width: 28%;
+     text-align: center;
+     margin-top: 0;
+  } 
+  .sect{
+            margin-top: 8%;
+             width: 100%;        
   }
-  .footerpart1 {
-    margin-left: 6%;
-    width: 330px;
+  .hi{
+               width: 800px;
   }
-.twitter{
-            margin-left: 10px;
-}
-.instagram{
-               margin-left: 10px;
-}
-.container1 .pandh1{
-                 font-size: 15px;
-}
-.view-more{
-               width: 20%;
-}
-.pandh1 img {
-    height: 500px;
-    margin-top: 5%;
-    margin-right: 0;
-}
-#banner h1{
-         margin: 0;
-    padding-top: 12%;
-    font-size: 3.5rem;
-}
-nav{
-             gap: 22%;
-}
-.box{
-                    margin-left: 13%;
-        display: flex;
-        gap: 9%;
-}
-.sect{
-           margin-top: 5%;
-}
-.news-section p{
-  font-size: 18px;
+  .hi h1{
+                 font-size: 1.6rem;
   }
+ #newspage{
+             margin-left: 8%;
+ }
+ .news-section{
+             padding-top: 8%;
+            
+ }
+ .news-column{
+                     width: 100%;
+                    display: block;
+ }
+ .news-box img {
+                       width: 100%;
+    height: 400px;
+    object-fit: cover;
+ } 
+footer{
+                     height: auto;
+                     display: block;
+                     
+                    
+ }
+ .footerpart1{
+              margin-left: 8%;
+ }
+ .footerpart1 h3{
+                            font-size:2.1rem;  
+                             
+ }
+ .contactinfo{
+            margin-left: 8%;
+ }
+  .timings{
+            margin-left: 3%;
+ }
+  .sociallinks{
+            margin-left: 3%;
+            padding-bottom: 5%;
+          
+ }
+ .contactinfo h3{
+                             font-size: 2.1rem;
+                          
+ }
+  .contactinfo p{
+                             font-size: 1.6rem;
+                           
+                            
+ }
+ .footerpart1 p{
+                        font-size: 1.6rem;
+                         width: 385px;
+                       
+ }
+
+ .timings h3{
+                       font-size: 2.1rem;
+ }
+ .timings ul li{
+                 font-size: 1.6rem;
+ }
+  .timings .tminfo li{
+                   font-size: 1.6rem;
+                 
+                 
+ }
+ .sociallinks h3{
+                          font-size:2.1rem;
+ }
+   .news-item h4{
+                     font-size: 2rem;
+   }
+     
+      .facebook{
+                      margin-left: 5%;
+      }
+       .icons a img{
+                      height: 50px;
+                      width: 50px;
+      }
+      .arrow img{
+                        height: 60px;
+      }
 }
+
 /*small devices*/
 @media only screen and (max-width:768px) {
 
@@ -576,16 +706,23 @@ footer{
                  
                  
  }
+ .sociallinks{
+                      margin-left: 2%;
+ }
  .sociallinks h3{
                           font-size:2.1rem;
  }
    .news-item h4{
                      font-size: 2rem;
    }
-      .twitter{
-                      margin-left: 5%;
-      }
       .facebook{
                       margin-left: 5%;
+      }
+      .icons a img{
+                      height: 50px;
+                      width: 50px;
+      }
+      .arrow img{
+                        height: 50px;
       }
 }
